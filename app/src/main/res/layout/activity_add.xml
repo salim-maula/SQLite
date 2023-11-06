@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" tools:context=".Add"
+    android:padding="16dp"
+
+    >
+    <TextView
+        android:text="Judul_Buku" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    </TextView>
+    <EditText android:text=""
+        android:id="@+id/edAddJudulBuku" android:layout_width="match_parent" android:layout_height="wrap_content">
+    </EditText>
+    <TextView
+        android:text="Nama_Pengarang" android:layout_width="wrap_content" android:layout_height="wrap_content"> </TextView>
+    <EditText android:text=""
+        android:id="@+id/edAddNamaPengarang" android:layout_width="match_parent" android:layout_height="wrap_content">
+    </EditText>
+    <TextView
+        android:text="Tahun_Terbit" android:layout_width="wrap_content" android:layout_height="wrap_content"> </TextView>
+    <EditText android:text=""
+        android:id="@+id/edAddTahunTerbit" android:layout_width="match_parent" android:layout_height="wrap_content">
+    </EditText>
+    <TextView android:text="Penerbit"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"> </TextView>
+    <EditText android:text=""
+        android:id="@+id/edAddPenerbit"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"> </EditText>
+    <Button android:text="Simpan"
+        android:id="@+id/btnAddSimpan" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    </Button>
+</LinearLayout>
