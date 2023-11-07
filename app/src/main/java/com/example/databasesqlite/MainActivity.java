@@ -16,7 +16,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-public class MainActivity extends Activity {
+public class MainActivity extends AppCompatActivity {
 
     String[] daftar;
     ListView ListView01;
